@@ -7,7 +7,7 @@
   "author": "Matt DesLauriers <dave.des@gmail.com>",
   "dependencies": {
     "glslify": "^1.6.0",
-    "three": "^0.68.0"
+    "three": "0.68.x"
   },
   "devDependencies": {
     "tape": "~2.13.2"
