@@ -11,7 +11,9 @@ var source = glslify({
     sourceOnly: true
 })
 
-var result = shader(source, 'uCol')
+var result = shader(source, {
+    colors: ['uCol']
+})
 
 console.log(result)
 console.log(result.uniforms)
