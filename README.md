@@ -54,6 +54,8 @@ Options:
 
 ## Gotchas
 
+Since ThreeJS release cycles are unpredictable and don't use semantic versioning, this module may break with newer versions of ThreeJS. It currently works with three 0.68.0 (r68). Send issues or PRs if you find versioning problems.
+
 ThreeJS distinguishes between an array of THREE.Vector3 objects, and a flattened `vec3` type represented by floats (`v3v` vs `fv`). This module only sees the `vec3` array type, and assumes they are to be represented by an array of THREE.Vector3 elements. Same with `ivec3`, `vec4`, etc. 
 
 ## License
