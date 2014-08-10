@@ -1,0 +1,55 @@
+{
+  "name": "three-glslify",
+  "version": "1.0.0",
+  "description": "a helper to make ThreeJS shader materials from glslify",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Matt DesLauriers <dave.des@gmail.com>",
+  "dependencies": {
+    "glslify": "^1.6.0",
+    "three": "^0.68.0"
+  },
+  "devDependencies": {
+    "tape": "~2.13.2"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/three-glslify.git"
+  },
+  "homepage": "https://github.com/mattdesl/three-glslify",
+  "bugs": {
+    "url": "https://github.com/mattdesl/three-glslify/issues"
+  },
+  "keywords": [
+    "threejs",
+    "three",
+    "glsl",
+    "glslify",
+    "webgl",
+    "gl",
+    "uniforms",
+    "attributes",
+    "shader"
+  ],
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  }
+}
