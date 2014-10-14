@@ -2,7 +2,8 @@
 //or browserify... can't automate it until glslify works
 //in Node :(
 
-var shader = require('./')
+var THREE = require('three')
+var shader = require('./')(THREE)
 
 var glslify = require('glslify')
 var source = glslify({
