@@ -7,6 +7,8 @@ A helper to turn [glslify](https://github.com/stackgl/glslify) shader into a Thr
 Typical example:
 
 ```js
+var THREE = require('three')
+
 //inline our shader code
 var glslify = require('glslify')
 var source = glslify({
@@ -16,7 +18,7 @@ var source = glslify({
 })
 
 //create a shader that ThreeJS will recognize
-var createShader = require('three-glslify')
+var createShader = require('three-glslify')(THREE)
 var myShader = createShader(source)
 
 //we can now use it in ShaderMaterial or EffectComposer
