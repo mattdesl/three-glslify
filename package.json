@@ -1,6 +1,6 @@
 {
   "name": "three-glslify",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "a helper to make ThreeJS shader materials from glslify",
   "main": "index.js",
   "license": "MIT",
