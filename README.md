@@ -2,6 +2,12 @@
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
+#### DEPRECATED !
+
+This bridge is no longer necessary in `glslify@2.x` and above. See [three-glslify-example](https://github.com/mattdesl/three-glslify-example) for a full example of using ThreeJS + glslify.
+
+---
+
 A helper to turn [glslify](https://github.com/stackgl/glslify) shader into a ThreeJS shader object. 
 
 Typical example:
